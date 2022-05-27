@@ -1,0 +1,10 @@
+
+optimized conv_1_filter number : 96 
+optimized conv_1_kernel size : 3 
+optimized conv_2_filter number : 64 
+optimized conv_2_kernel size : 3
+optimized conv_3_filter number : 96 
+optimized conv_3_kernel size : 5
+optimized dense_1_units number: 224
+learnig rate : 0.0005 
+
