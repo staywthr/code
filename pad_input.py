@@ -37,51 +37,77 @@ def paded_npy(npy):
 
 for ldmn in np.arange(1):
     for lmen in np.arange(1,67):
-        indir = f"/media/cmlws/Data2/jsp/LMEdata2/{ldmn}/{lmen}/RGB/"
+        indir = f"/media/cmlws/Data2/jsp/cmip6LMEdata/{ldmn}/{lmen}/historical/"
         print(f"lead month {ldmn} LME {lmen} input file padding processing")
 
-        chl_train_x = np.load(f"{indir}/chl_tr_x_{lmen}.npy")
+        chl_train_x = np.load(f"{indir}/chl_historical_tr_x.npy")
         paded_chl_train_x  = paded_npy(chl_train_x)
-        
-        chl_valid_x = np.load(f"{indir}/chl_val_x_{lmen}.npy")
-        paded_chl_valid_x  = paded_npy(chl_valid_x)
-        
-        chl_test_x = np.load(f"{indir}/chl_test_x_{lmen}.npy")
-        paded_chl_test_x = paded_npy(chl_test_x)
-
-        sst_train_x = np.load(f"{indir}/sst_tr_x_{lmen}.npy")
+        print(f"chl train x padded!")
+        sst_train_x = np.load(f"{indir}/sst_historical_tr_x.npy")
         paded_sst_train_x  = paded_npy(sst_train_x)
-        
-        sst_valid_x = np.load(f"{indir}/sst_val_x_{lmen}.npy")
-        paded_sst_valid_x  = paded_npy(sst_valid_x)
-        
-        sst_test_x = np.load(f"{indir}/sst_test_x_{lmen}.npy")
-        paded_sst_test_x = paded_npy(sst_test_x)
-        
-        train_x = np.load(f"{indir}/tr_x_{lmen}.npy")
+        print(f"sst train x padded!")
+        train_x = np.load(f"{indir}/historical_tr_x.npy")
         paded_train_x  = paded_npy(train_x)
+        print(f"train x padded!")
+        train_y = np.load(f"{indir}/historical_tr_y.npy")
 
-        valid_x = np.load(f"{indir}/val_x_{lmen}.npy")
+        chl_hisval_x = np.load(f"{indir}/chl_historical_val_x.npy")
+        paded_chl_hisval_x  = paded_npy(chl_hisval_x)
+        print(f"chl historical val x padded!")
+        sst_hisval_x = np.load(f"{indir}/sst_historical_val_x.npy")
+        paded_sst_hisval_x  = paded_npy(sst_hisval_x)
+        print(f"sst historical val x padded!")
+        hisval_x = np.load(f"{indir}/historical_val_x.npy")
+        paded_hisval_x = paded_npy(hisval_x)
+        print(f"historical val x padded!")
+        hisval_y = np.load(f"{indir}/historical_val_y.npy")
+
+        chl_valid_x = np.load(f"{indir}/chl_valid_x.npy")
+        paded_chl_valid_x  = paded_npy(chl_valid_x)
+        print(f"chl val x padded!")
+        sst_valid_x = np.load(f"{indir}/sst_valid_x.npy")
+        paded_sst_valid_x  = paded_npy(sst_valid_x)
+        print(f"sst val x padded!")
+        valid_x = np.load(f"{indir}/valid_x.npy")
         paded_valid_x = paded_npy(valid_x)
+        print(f"val x padded!")
+        valid_y = np.load(f"{indir}/valid_y.npy")
 
-        test_x = np.load(f"{indir}/test_x_{lmen}.npy")
+        chl_test_x = np.load(f"{indir}/chl_test_x.npy")
+        paded_chl_test_x = paded_npy(chl_test_x)
+        print(f"chl test x padded!")
+        sst_test_x = np.load(f"{indir}/sst_test_x.npy")
+        paded_sst_test_x = paded_npy(sst_test_x)
+        print(f"sst test x padded!")
+        test_x = np.load(f"{indir}/test_x.npy")
         paded_test_x = paded_npy(test_x)
-
-        train_y = np.load(f"{indir}/tr_y_{lmen}.npy")
-        valid_y = np.load(f"{indir}/val_y_{lmen}.npy")
-
-        outdir = f"/media/cmlws/Data2/jsp/padLMEdata/{ldmn}/{lmen}/RGB/"
+        print(f"test x padded!")
+        test_y = np.load(f"{indir}/test_y.npy")     
+       
+        outdir = f"/media/cmlws/Data2/jsp/padLMEdata/{ldmn}/{lmen}/historical/"
         os.makedirs(outdir, exist_ok=True)       
+        print("out directory made!")
+        np.save(f"{outdir}/chl_historical_tr_x.npy", paded_chl_train_x)
+        np.save(f"{outdir}/sst_historical_tr_x.npy", paded_sst_train_x)
+        np.save(f"{outdir}/historical_tr_x.npy", paded_train_x)
+        np.save(f"{outdir}/historical_tr_y.npy", train_y)
+        print("hitorical train x and train y saved!")
 
-        np.save(f"{outdir}/chl_tr_x_{lmen}.npy", paded_chl_train_x)
-        np.save(f"{outdir}/tr_y_{lmen}.npy", train_y)
-        np.save(f"{outdir}/chl_val_x_{lmen}.npy", paded_chl_valid_x)
-        np.save(f"{outdir}/val_y_{lmen}.npy", valid_y)
-        np.save(f"{outdir}/chl_test_x_{lmen}.npy", paded_chl_test_x)
-        np.save(f"{outdir}/sst_tr_x_{lmen}.npy", paded_sst_train_x)
-        np.save(f"{outdir}/sst_val_x_{lmen}.npy", paded_sst_valid_x)
-        np.save(f"{outdir}/sst_test_x_{lmen}.npy", paded_sst_test_x)
-        np.save(f"{outdir}/tr_x_{lmen}.npy", paded_train_x)
-        np.save(f"{outdir}/val_x_{lmen}.npy", paded_valid_x)
-        np.save(f"{outdir}/test_x_{lmen}.npy", paded_test_x)
+        np.save(f"{outdir}/chl_historical_val_x.npy", paded_chl_hisval_x)
+        np.save(f"{outdir}/sst_historical_val_x.npy", paded_sst_hisval_x)
+        np.save(f"{outdir}/historical_val_x.npy", paded_hisval_x)
+        np.save(f"{outdir}/historical_val_y.npy", hisval_y)
+        print("hitorical valid x and train y saved!")
+
+        np.save(f"{outdir}/chl_valid_x.npy", paded_chl_valid_x)
+        np.save(f"{outdir}/sst_valid_x.npy", paded_sst_valid_x)
+        np.save(f"{outdir}/valid_x.npy", paded_valid_x)
+        np.save(f"{outdir}/valid_y.npy", valid_y)
+        print("valid x and train y saved!")
+
+        np.save(f"{outdir}/chl_test_x.npy", paded_chl_test_x)
+        np.save(f"{outdir}/sst_test_x.npy", paded_sst_test_x)
+        np.save(f"{outdir}/test_x.npy", paded_test_x)
+        np.save(f"{outdir}/test_y.npy", test_y)
+        print("test x and train y saved!")
         print(f"lead month {ldmn} LME {lmen} input file padding processed")

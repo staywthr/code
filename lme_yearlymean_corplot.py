@@ -6,7 +6,7 @@ from scipy import stats
 import pandas as pd
 import os
 import glob
-plt.style.use ('ggplot')
+# plt.style.use ('ggplot')
 test_path = "/media/cmlws/Data1/jsp/DLdata/1/test/"
 target_test_files = sorted(glob.glob(test_path+"chl_199801-201812_1x1.nc"))
 
@@ -133,9 +133,9 @@ def get_cor_list(en, directory):
     rp['significant'] = rp['p'].apply(lambda x: 'True' if x<0.10 else 'False')
     return rp
 
-sst_df = get_cor_list(5, 'paded_sst_input')
-chl_df = get_cor_list(5, 'paded_chl_input')
-sc_df = get_cor_list(5, 'paded_cs_input')
+sst_df = get_cor_list(5, 'sst_reval')
+chl_df = get_cor_list(5, 'chl_reval')
+sc_df = get_cor_list(5, 'cs_reval')
 
 
 sst_t = sst_df['r'].loc[sst_df['p']<0.10]
@@ -171,7 +171,7 @@ ax.scatter(chl_f.index, chl_f, marker='D', edgecolor='g', color='None')
 cs_point = ax.scatter(sc_t.index, sc_t, marker='o', color='b', label='SST+CHL')
 ax.scatter(sc_f.index, sc_f, marker='o', edgecolor='b', color='None')
 
-ax.set_title("Prediction skill - Validation with reanalisys(padded)")
+ax.set_title("Prediction skill - Validation with reanalisys(None - padded)")
 ax.set_xlim([0.5, 66.5])
 ax.set_ylim([-1.2, 1.2])
 ax.set_xticks(X)
@@ -202,7 +202,7 @@ lg3 = ax.legend([chl_point, cs_point, sst_bar, ],
 art_legned3 = plt.gca().add_artist(lg3)     
                
 plt.tight_layout()
-fig.savefig("/media/cmlws/Data2/jsp/FIG/LMEcs_padding.png",            
+fig.savefig("/media/cmlws/Data2/jsp/FIG/LMEcs_No_padding.png",            
             dpi=300, 
             format='png', 
             bbox_extra_artists=(lg1,lg2,lg3), 
