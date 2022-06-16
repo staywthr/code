@@ -133,9 +133,9 @@ def get_cor_list(en, directory):
     rp['significant'] = rp['p'].apply(lambda x: 'True' if x<0.10 else 'False')
     return rp
 
-sst_df = get_cor_list(5, 'sst_reval')
-chl_df = get_cor_list(5, 'chl_reval')
-sc_df = get_cor_list(5, 'cs_reval')
+sst_df = get_cor_list(5, 'cs_his+reval_base')
+chl_df = get_cor_list(5, 'cs_his+reval_k5')
+sc_df = get_cor_list(5, 'cs_his+reval_k7')
 
 
 sst_t = sst_df['r'].loc[sst_df['p']<0.10]
@@ -155,7 +155,7 @@ Y = np.round(np.arange(-1, 1.1, 0.1),2)
 W = 0.2
 
 # plot bars with face color off
-sst_bar = ax.bar(sst_t.index, sst_t, width=W, color='r', label='SST', alpha=0.5)
+sst_bar = ax.bar(sst_t.index, sst_t, width=W, color='r', label='k3', alpha=0.5)
 ax.bar(sst_f.index, sst_f, width=W, edgecolor='r', color='None')
 
 # # plot marks with face color off
@@ -165,13 +165,13 @@ ax.bar(sst_f.index, sst_f, width=W, edgecolor='r', color='None')
 # ax.bar(sc_t.index-W, sc_t, width=W, color='b', label='Tanh+MAE')
 # ax.bar(sc_f.index-W, sc_f, width=W, edgecolor='b', color='None')
 
-chl_point = ax.scatter(chl_t.index, chl_t, marker='D', color='g', label='CHL')
+chl_point = ax.scatter(chl_t.index, chl_t, marker='D', color='g', label='k5')
 ax.scatter(chl_f.index, chl_f, marker='D', edgecolor='g', color='None')
 
-cs_point = ax.scatter(sc_t.index, sc_t, marker='o', color='b', label='SST+CHL')
+cs_point = ax.scatter(sc_t.index, sc_t, marker='o', color='b', label='k7')
 ax.scatter(sc_f.index, sc_f, marker='o', edgecolor='b', color='None')
 
-ax.set_title("Prediction skill - Validation with reanalisys(None - padded)")
+ax.set_title("Prediction skill - Kernel size")
 ax.set_xlim([0.5, 66.5])
 ax.set_ylim([-1.2, 1.2])
 ax.set_xticks(X)
@@ -202,7 +202,7 @@ lg3 = ax.legend([chl_point, cs_point, sst_bar, ],
 art_legned3 = plt.gca().add_artist(lg3)     
                
 plt.tight_layout()
-fig.savefig("/media/cmlws/Data2/jsp/FIG/LMEcs_No_padding.png",            
+fig.savefig("/media/cmlws/Data2/jsp/FIG/LMEcs_kernel_size.png",            
             dpi=300, 
             format='png', 
             bbox_extra_artists=(lg1,lg2,lg3), 

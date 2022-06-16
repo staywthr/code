@@ -4,7 +4,7 @@ import os
 import pickle
 from contextlib import redirect_stdout
 from datetime import datetime
-
+import sys
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 
@@ -24,13 +24,19 @@ EPOCHS = 135
 LEARNING_RATE = 0.005
 NUM_FEATURES = 1*6
 
+
+K1 = int(sys.argv[1])
+K2 = int(sys.argv[2])
+K3 = int(sys.argv[3])
+
+
 def get_cnn_model():
     inputs = keras.Input((LON_SIZE, LAT_SIZE, NUM_FEATURES))
-    conv1 = keras.layers.Conv2D(35, [5,5], activation='gelu', padding='same', strides=1,kernel_initializer='glorot_normal')(inputs)
+    conv1 = keras.layers.Conv2D(35, [K1, K1], activation='gelu', padding='same', strides=1,kernel_initializer='glorot_normal')(inputs)
     pool1 = keras.layers.MaxPooling2D((2,2), strides=2, padding='same')(conv1)
-    conv2 = keras.layers.Conv2D(35, [5,5], activation='gelu', padding='same', strides=1)(pool1)
+    conv2 = keras.layers.Conv2D(35, [K2, K2], activation='gelu', padding='same', strides=1)(pool1)
     pool2 = keras.layers.MaxPooling2D((2,2), strides=2, padding='same')(conv2)
-    conv3 = keras.layers.Conv2D(35, [5,5], activation='gelu', padding='same', strides=1)(pool2)
+    conv3 = keras.layers.Conv2D(35, [K3,K3], activation='gelu', padding='same', strides=1)(pool2)
     flat = keras.layers.Flatten()(conv3)
     dense1 = keras.layers.Dense(50, activation='gelu')(flat)
     outputs = keras.layers.Dense(1, activation=None)(dense1)
@@ -40,13 +46,10 @@ def get_cnn_model():
     return cnn_model
 
 
-
-
-
 #1~66번 LME 지역 연평균 예측 실험 함수 
 # Utility for running experiments.
 def run_experiment(ldmn=0, model_number=0, lmen=1):
-    indir = f"/media/cmlws/Data2/jsp/cmip6LMEdata/{ldmn}/{lmen}/historical/"
+    indir = f"/media/cmlws/Data2/jsp/cmip6LMEdata/{ldmn}/{lmen}/historical"
 
     # chl_train_x = np.load(f"{indir}/chl_tr_x_{lmen}.npy")
     # chl_valid_x = np.load(f"{indir}/chl_val_x_{lmen}.npy")
@@ -68,7 +71,8 @@ def run_experiment(ldmn=0, model_number=0, lmen=1):
     valid_y = np.concatenate([val_y1, val_y2], axis=0)
 
 # 아웃풋 저장 디렉토리 
-    outdir = f"/media/cmlws/Data2/jsp/LMEpredict/cs_his+reval_k5/cnn/{ldmn}/{lmen}"
+    kstr1, kstr2, kstr3 = str(K1), str(K2), str(K3)
+    outdir = f"/media/cmlws/Data2/jsp/LMEpredict/cs_his+reval_k{kstr1}k{kstr2}k{kstr3}/cnn/{ldmn}/{lmen}"
     os.makedirs(outdir, exist_ok=True)       
 #텐서보드 로그 저장 디렉토리 
     # logdir= outdir+"/logs/" + datetime.now().strftime("%Y%m%d-%H%M%S")
@@ -117,10 +121,14 @@ def run_experiment(ldmn=0, model_number=0, lmen=1):
 
 for ld in np.arange(1):
     for lme in np.arange(1,67):
-        outdr = f'/media/cmlws/Data2/jsp/LMEpredict/cs_his+reval_k5/cnn/{ld}/{lme}'
+        kstr1, kstr2, kstr3 = str(K1), str(K2), str(K3)
+        outdr = f'/media/cmlws/Data2/jsp/LMEpredict/cs_his+reval_k{kstr1}k{kstr2}k{kstr3}/cnn/{ld}/{lme}'
         predict = []
         for md in np.arange(5):
             _, fcst, sequence_model = run_experiment(ld, md, lme)
             predict.append(fcst)
         preds = np.array(predict)
         np.save(f"{outdr}/fcst{ld}.npy", preds)
+
+
+
