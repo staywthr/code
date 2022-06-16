@@ -16,10 +16,10 @@ def file_moover(filelist):
 
 
 for lmen in np.arange(1,67): 
-    indir = f"/media/cml/Data1/jsp/cmip6LMEdata/{ldmn}/{lmen}/DJF/"
-    chl_train_files = sorted(glob.glob(indir + 'sfc_chl_Omon_*train_x.npy'))
-    sst_train_files = sorted(glob.glob(indir + 'tos_Omon_*train_x.npy'))
-    target_train_files = sorted(glob.glob(indir + '*train_y.npy'))
+    indir = f"/media/cml/Data1/jsp/GFDL-CM4/{ldmn}/{lmen}/DJF/"
+    chl_train_files = sorted(glob.glob(indir + 'sfc_chl_Omon_*historical_*train_x.npy'))
+    sst_train_files = sorted(glob.glob(indir + 'tos_Omon_*historical_*train_x.npy'))
+    target_train_files = sorted(glob.glob(indir + '*historical_*train_y.npy'))
 
     print(f"Total cmip6 models(chl) for training: {len(chl_train_files)}")
     print(f"Total cmip6 models(sst) for training: {len(sst_train_files)}")
@@ -72,8 +72,9 @@ for lmen in np.arange(1,67):
     sst_train_sequence = np.concatenate(temp_x_train, axis=0)
     sst_valid_sequence = np.concatenate(temp_x_valid, axis=0)
 
-    outdir =  f"/media/cml/Data1/jsp/cmip6LMEdata/{ldmn}/{lmen}/historical"
+    outdir =  f"/media/cml/Data1/jsp/GFDL-CM4/{ldmn}/{lmen}/historical"
     os.makedirs(outdir, exist_ok=True)    
+
     np.save(f'{outdir}/chl_historical_tr_x.npy', chl_train_sequence)
     np.save(f'{outdir}/chl_historical_val_x.npy', chl_valid_sequence)
 

@@ -1,0 +1,858 @@
+lead month 0 LME 1 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 189
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 189
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 2 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 209
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 209
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 3 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 216
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 216
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 4 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 18
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 18
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 5 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 138
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 138
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 6 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 29
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 29
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 7 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 33
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 33
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 8 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 32
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 32
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 9 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 112
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 112
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 10 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 88
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 88
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 11 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 165
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 165
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 12 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 276
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 276
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 13 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 249
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 249
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 14 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 138
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 138
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 15 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 52
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 52
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 16 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 90
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 90
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 17 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 89
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 89
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 18 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 323
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 323
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 19 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 355
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 355
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 20 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 692
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 692
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 21 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 234
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 234
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 22 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 102
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 102
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 23 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 62
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 62
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 24 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 100
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 100
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 25 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 34
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 34
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 26 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 258
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 258
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 27 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 100
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 100
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 28 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 159
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 159
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 29 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 123
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 123
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 30 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 230
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 230
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 31 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 73
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 73
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 32 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 339
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 339
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 33 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 41
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 41
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 34 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 305
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 305
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 35 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 34
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 34
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 36 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 258
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 258
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 37 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 83
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 83
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 38 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 180
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 180
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 39 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 66
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 66
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 40 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 109
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 109
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 41 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 60
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 60
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 42 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 125
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 125
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 43 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 101
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 101
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 44 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 56
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 56
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 45 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 74
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 74
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 46 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 103
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 103
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 47 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 72
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 72
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 48 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 42
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 42
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 49 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 127
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 127
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 50 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 110
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 110
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 51 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 60
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 60
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 52 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 214
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 214
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 53 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 110
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 110
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 54 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 340
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 340
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 55 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 293
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 293
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 56 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 184
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 184
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 57 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 296
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 296
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 58 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 351
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 351
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 59 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 94
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 94
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 60 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 18
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 18
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 61 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 1332
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 1332
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 62 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 53
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 53
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 63 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 216
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 216
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 64 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 3173
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 3173
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 65 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 31
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 31
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed
+lead month 0 LME 66 input file processing
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012.nc Dataset
+sfc_chl_Omon_GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_x.npy processed
+# Total number of lme grid: 293
+GFDL-CM4_piControl_r1i1p1f1_gr_015101-065012_train_y.npy processed
+chlorophyll preprocess
+# Total number of missing grid: 47872
+Lead month 0 chl GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012.nc Dataset
+sfc_chl_Omon_GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_x.npy processed
+# Total number of lme grid: 293
+GFDL-ESM4_piControl_r1i1p1f1_gr_000101-050012_train_y.npy processed

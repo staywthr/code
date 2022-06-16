@@ -33,7 +33,7 @@ if gpus:
 physical_devices = tf.config.list_physical_devices('GPU') 
 tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
-BATCH_SIZE = 64
+BATCH_SIZE = 32
 EPOCHS = 135
 LEARNING_RATE = 0.005
 NUM_FEATURES = 1*6
@@ -56,7 +56,7 @@ def get_cnn_model():
 #1~66번 LME 지역 연평균 예측 실험 함수 
 # Utility for running experiments.
 def run_experiment(ldmn=0, model_number=0, lmen=1):
-    indir = f"/media/cml/Data1/jsp/cmip6LMEdata/{ldmn}/{lmen}/historical/"
+    indir = f"/media/cml/Data1/jsp/GFDL-CM4/{ldmn}/{lmen}/piConHis/"
     # chl_train_x = np.load(f"{indir}/chl_tr_x_{lmen}.npy")
     # chl_valid_x = np.load(f"{indir}/chl_val_x_{lmen}.npy")
     # chl_test_x = np.load(f"{indir}/chl_test_x.npy")
@@ -65,19 +65,19 @@ def run_experiment(ldmn=0, model_number=0, lmen=1):
     # sst_valid_x = np.load(f"{indir}/sst_val_x_{lmen}.npy")
     # sst_test_x = np.load(f"{indir}/sst_test_x.npy")
 
-    train_x = np.load(f"{indir}/historical_tr_x.npy")
-    valid_x = np.load(f"{indir}/historical_val_x.npy")
-    # val_x2 = np.load(f"{indir}/valid_x.npy")
-    # valid_x = np.concatenate([val_x1,val_x2], axis=0)
+    train_x = np.load(f"{indir}/tr_x.npy") #pi+his
+    val_x1 = np.load(f"{indir}/historical_val_x.npy") #his validation
+    val_x2 = np.load(f"{indir}/valid_x.npy")
+    valid_x = np.concatenate([val_x1,val_x2], axis=0)
     test_x = np.load(f"{indir}/test_x.npy")
 
-    train_y = np.load(f"{indir}/historical_tr_y.npy")
-    valid_y = np.load(f"{indir}/historical_val_y.npy")
-    # val_y2 = np.load(f"{indir}/valid_y.npy")
-    # valid_y = np.concatenate([val_y1, val_y2], axis=0)
+    train_y = np.load(f"{indir}/tr_y.npy") #pi+his
+    val_y1 = np.load(f"{indir}/historical_val_y.npy") #his validation
+    val_y2 = np.load(f"{indir}/valid_y.npy")
+    valid_y = np.concatenate([val_y1, val_y2], axis=0)
 
 # 아웃풋 저장 디렉토리 
-    outdir = f"/media/cml/Data1/jsp/LMEpredict/xrcs_his+gfdl_cm4/cnn/{ldmn}/{lmen}"
+    outdir = f"/media/cml/Data1/jsp/LMEpredict/gfdl_cm4_pi+his+re/cnn/{ldmn}/{lmen}"
     os.makedirs(outdir, exist_ok=True)       
 #텐서보드 로그 저장 디렉토리 
     # logdir= outdir+"/logs/" + datetime.now().strftime("%Y%m%d-%H%M%S")
@@ -126,7 +126,7 @@ def run_experiment(ldmn=0, model_number=0, lmen=1):
 
 for ld in np.arange(1):
     for lme in np.arange(1,67):
-        outdr = f'/media/cml/Data1/jsp/LMEpredict/xrcs_his+gfdl_cm4/cnn/{ld}/{lme}'
+        outdr = f'/media/cml/Data1/jsp/LMEpredict/gfdl_cm4_pi+his+re/cnn/{ld}/{lme}'
         predict = []
         for md in np.arange(5):
             _, fcst, sequence_model = run_experiment(ld, md, lme)

@@ -137,9 +137,9 @@ def get_cor_list(en, directory):
     rp['significant'] = rp['p'].apply(lambda x: 'True' if x<0.10 else 'False')
     return rp
 
-sst_df = get_cor_list(5, 'xrsst_his+gfdl_cm4')
-chl_df = get_cor_list(5, 'xrchl_his+gfdl_cm4')
-sc_df = get_cor_list(5, 'xrcs_his+gfdl_cm4')
+sst_df = get_cor_list(5, 'gfdl_cm4_sst_pi+his')
+chl_df = get_cor_list(5, 'gfdl_cm4_chl_pi+his')
+sc_df = get_cor_list(5, 'gfdl_cm4_pi+his')
 
 
 sst_t = sst_df['r'].loc[sst_df['p']<0.10]
@@ -175,7 +175,7 @@ ax.scatter(chl_f.index, chl_f, marker='D', edgecolor='g', color='None')
 cs_point = ax.scatter(sc_t.index, sc_t, marker='o', color='b', label='SST+CHL')
 ax.scatter(sc_f.index, sc_f, marker='o', edgecolor='b', color='None')
 
-ax.set_title("Prediction skill - Validation with historical")
+ax.set_title("Prediction skill(GFDL-CM4) -Training with pi Validation with historical")
 ax.set_xlim([0.5, 66.5])
 ax.set_ylim([-1.2, 1.2])
 ax.set_xticks(X)
@@ -206,7 +206,7 @@ lg3 = ax.legend([chl_point, cs_point, sst_bar, ],
 art_legned3 = plt.gca().add_artist(lg3)     
                
 plt.tight_layout()
-fig.savefig("/media/cml/Data1/jsp/FIG/LMEcs_gfdl.png",            
+fig.savefig("/media/cml/Data1/jsp/FIG/LMEcs_gfdl-cm4_piConHis.png",            
             dpi=300, 
             format='png', 
             bbox_extra_artists=(lg1,lg2,lg3), 
