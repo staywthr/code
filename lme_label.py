@@ -43,7 +43,7 @@ def get_cnn_model():
 #1~66번 LME 지역 연평균 예측 실험 함수 
 # Utility for running experiments.
 def run_experiment(ldmn=0, model_number=0, lmen=1):
-    indir = f"/media/cmlws/Data2/jsp/cmip6LMEdata/{ldmn}/{lmen}/historical/"
+    xdir = f"/media/cmlws/Data2/jsp/LMEinput/split_init_month_yr/DJF"
 
     # chl_train_x = np.load(f"{indir}/chl_tr_x_{lmen}.npy")
     # chl_valid_x = np.load(f"{indir}/chl_val_x_{lmen}.npy")
@@ -53,19 +53,20 @@ def run_experiment(ldmn=0, model_number=0, lmen=1):
     # sst_valid_x = np.load(f"{indir}/sst_val_x_{lmen}.npy")
     # sst_test_x = np.load(f"{indir}/sst_test_x_{lmen}.npy")
 
-    train_x = np.load(f"{indir}/historical_tr_x.npy")
-    val_x1 = np.load(f"{indir}/historical_val_x.npy")
-    val_x2 = np.load(f"{indir}/valid_x.npy")
+    train_x = np.load(f"{xdir}/historical_tr_x.npy")
+    val_x1 = np.load(f"{xdir}/historical_val_x.npy") 
+    val_x2 = np.load(f"{xdir}/val_x.npy")
     valid_x = np.concatenate([val_x1,val_x2], axis=0)
-    test_x = np.load(f"{indir}/test_x.npy")
+    test_x = np.load(f"{xdir}/test_x.npy")
 
-    train_y = np.load(f"{indir}/historical_tr_y.npy")
-    val_y1 = np.load(f"{indir}/historical_val_y.npy") 
-    val_y2 = np.load(f"{indir}/valid_y.npy")
+    ydir = f"/media/cmlws/Data2/jsp/LMEinput/split_anom_yr_mean/{lmen}"
+    train_y = np.load(f"{ydir}/historical_tr_y.npy")
+    val_y1 = np.load(f"{ydir}/historical_val_y.npy")[:,np.newaxis] 
+    val_y2 = np.load(f"{ydir}/val_y.npy")
     valid_y = np.concatenate([val_y1, val_y2], axis=0)
 
 # 아웃풋 저장 디렉토리 
-    outdir = f"/media/cmlws/Data2/jsp/LMEpredict/cs_his+reval_base/cnn/{ldmn}/{lmen}"
+    outdir = f"/media/cmlws/Data2/jsp/LMEpredict/cs_his+reval_anom/cnn/DJF/{lmen}"
     os.makedirs(outdir, exist_ok=True)       
 #텐서보드 로그 저장 디렉토리 
     # logdir= outdir+"/logs/" + datetime.now().strftime("%Y%m%d-%H%M%S")
@@ -114,7 +115,7 @@ def run_experiment(ldmn=0, model_number=0, lmen=1):
 
 for ld in np.arange(1):
     for lme in np.arange(1,67):
-        outdr = f'/media/cmlws/Data2/jsp/LMEpredict/cs_his+reval_base/cnn/{ld}/{lme}'
+        outdr = f'/media/cmlws/Data2/jsp/LMEpredict/cs_his+reval_anom/cnn/DJF/{lme}'
         predict = []
         for md in np.arange(5):
             _, fcst, sequence_model = run_experiment(ld, md, lme)

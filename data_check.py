@@ -5,5 +5,5 @@ import pandas as pd
 import os
 import glob
 
-indir = f"/media/cmlws/Data2/jsp/padLMEdata/0/66/RGB"
-chl_train_x = np.load(f"{indir}/chl_tr_x_66.npy")
+indir = f"/media/cmlws/Data2/jsp/cmip6LMEdata/0/66/historical"
+chl_train_x = np.load(f"{indir}/chl_historical_tr_x.npy")
